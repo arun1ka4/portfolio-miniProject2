@@ -15,9 +15,11 @@
 <img width="400" height="auto" alt="127 0 0 1_5500_index html(iPhone SE) (2)" src="https://github.com/user-attachments/assets/1f2c33dc-0c5a-468b-a747-25b144b5af30" />
 
 ### Certificates
-<img width="1200" height="auto" alt="127 0 0 1_5500_index html (5)" src="https://github.com/user-attachments/assets/1388ffc3-bebb-4b61-9b30-4562400a28d4" />
 
-<img width="400" height="auto" alt="127 0 0 1_5500_index html(iPhone SE) (3)" src="https://github.com/user-attachments/assets/ddffc734-fad0-4b27-b5b4-aee8ac20a1c7" />
+<img width="1200" height="auto" alt="localhost_8080_Minpro%20PBW_" src="https://github.com/user-attachments/assets/8bfb989b-e4e1-430b-92c7-764e3f572a00" />
+
+<img width="400" height="auto" alt="localhost_8080_Minpro%20PBW_(iPhone SE)" src="https://github.com/user-attachments/assets/6bacc71e-ad77-45ef-bb34-e6d677ef0bb3" />
+
 
 ## 🔎Teknologi
 | Teknologi | Tujuan |
