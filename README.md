@@ -26,7 +26,6 @@
 |----------|----------|
 | HTML | Struktur dasar website |
 | CSS | Styling tampilan website |
-| CSS | Mempermudah layout dan membuat website otomatis responsive |
 | Vue JS | Website statis menjadi lebih dinamis |
 
 ## ⚙️Fitur Bootstraps
