@@ -27,6 +27,10 @@
 | HTML | Struktur dasar website |
 | CSS | Styling tampilan website |
 | Vue JS | Website statis menjadi lebih dinamis |
+| PHP | Mengambil data dari database dan menampilkannya ke halaman web |
+| MySQL | Menyimpan semua data dinamis |
+
+// Lanjut lagi
 
 ## ⚙️Fitur Bootstraps
 
