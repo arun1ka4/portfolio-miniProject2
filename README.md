@@ -30,11 +30,18 @@
 | PHP | Mengambil data dari database dan menampilkannya ke halaman web |
 | MySQL | Menyimpan semua data dinamis |
 
-// Lanjut lagi
+
+## ⚙️Fitur PHP
+| Fitur | Penerapan |
+|----------|----------|
+| Menghubungkan PHP ke MySQL | new mysqli($host, $user, $pass, $db) |
+| Menampilkan pesan error jika koneksi gagal | $conn->connect_error |
+| Mencegah karakter aneh pada teks | $conn->set_charset("utf8mb4") |
+| mengambil data dari tiap tabel | $conn->query("SELECT * FROM ...") |
+| Menutup koneksi setelah data selesai diambil | $conn->close() |
+| Menampilkan data array ke HTML | foreach ($skills as $skill) |
 
 ## ⚙️Fitur Bootstraps
-
-## Bootstrap Classes Used
 
 | Category | Classes |
 |----------|----------|
@@ -46,17 +53,6 @@
 | Card | `card`, `card-img-top`, `card-body`, `card-title`, `card-text` |
 | Progress Bar | `progress`, `progress-bar` |
 | Image | `img-fluid`, `rounded-circle` |
-
-
-## ⚙️Fitur Vue JS
-
-| Fitur | Penerapan |
-|-------|------|
-| `Interpolation ({{ }})` | `{{ name }}`, `{{ tagline }}` |
-| `v-for` | Mengulang elemen pada skills, experiences, certificates |
-| `:style` | Width progrees bar dinamis dengan value level |
-| `:src` | Source image dari data `cert.image` |
-| `:href` | Link diambil dari data `cert.link` |
 
 ## 🎨Styling CSS
 | Category | Selector (Class & ID) |
