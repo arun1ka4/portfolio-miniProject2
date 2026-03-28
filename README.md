@@ -30,16 +30,8 @@
 | PHP | Mengambil data dari database dan menampilkannya ke halaman web |
 | MySQL | Menyimpan semua data dinamis |
 
-```
-## 🗃️Struktur File
-portfolio/
-├── index.php        
-├── portfolio.sql    
-├── diri.jpg         
-└── cert1.jpg        
-```
-
 ## ⚙️Fitur PHP
+
 | Fitur | Penerapan |
 |----------|----------|
 | Menghubungkan PHP ke MySQL | new mysqli($host, $user, $pass, $db) |
