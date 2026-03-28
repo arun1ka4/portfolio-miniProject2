@@ -30,13 +30,14 @@
 | PHP | Mengambil data dari database dan menampilkannya ke halaman web |
 | MySQL | Menyimpan semua data dinamis |
 
-## 📂Struktur File
+## 🗃️Struktur File
 portfolio/
 ├── index.php        
 ├── portfolio.sql    
 ├── diri.jpg         
 └── cert1.jpg        
-
+```
+```
 ## ⚙️Fitur PHP
 | Fitur | Penerapan |
 |----------|----------|
