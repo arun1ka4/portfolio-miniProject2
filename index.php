@@ -1,11 +1,7 @@
 <?php
-// ============================================================
-// KONEKSI DATABASE
-// Sesuaikan host, user, password, dan nama database
-// ============================================================
 $host   = "localhost";
 $user   = "root";
-$pass   = "";           // ganti jika ada password
+$pass   = "";           
 $db     = "portfolio_nayla";
 
 $conn = new mysqli($host, $user, $pass, $db);
@@ -17,28 +13,19 @@ if ($conn->connect_error) {
 }
 $conn->set_charset("utf8mb4");
 
-// ============================================================
-// AMBIL DATA DARI DATABASE
-// ============================================================
-
-// Profil
 $profil = $conn->query("SELECT * FROM profil LIMIT 1")->fetch_assoc();
 
-// Skills
 $skills_result = $conn->query("SELECT * FROM skills");
 $skills = [];
 while ($row = $skills_result->fetch_assoc()) {
     $skills[] = $row;
 }
 
-// Experience
 $exp_result = $conn->query("SELECT * FROM experience");
 $experiences = [];
 while ($row = $exp_result->fetch_assoc()) {
     $experiences[] = $row;
 }
-
-// Certificates
 $cert_result = $conn->query("SELECT * FROM certificates");
 $certificates = [];
 while ($row = $cert_result->fetch_assoc()) {
